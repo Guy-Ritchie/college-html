@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		
+		<style>
+		/**/
+			body{
+				position: absolute;
+				color: white;
+				background-color: black;
+			}
+			h3{
+				position: relative;
+				color: lime;
+				text-align: center;
+			}
+			
+			.center{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			/*
+			   CSS properties to highlight the continent upon hovering..
+			*/
+
+			.na:hover{
+				/* North America  */
+			}
+
+			.sa:hover{
+				/* South America  */
+			}
+			
+			.af:hover{
+				/* Africa  */
+			}
+
+			.eu:hover{
+				/* Europe  */
+			}
+
+			.md:hover{
+				/* Middle East  */
+			}
+
+			.as:hover{
+				/* Asia  */
+			}
+
+			.aus:hover{
+				/* Australia  */
+			}
+
+			.ant:hover{
+				/* Antartica  */
+			}
+		/**/
+		</style>
+	</head>
+
+	<body>
+		<h3>World Map with Major Continents and Countries</h3>
+		<div></div>
+		<map name="world">
+			<area class="na"
+			      shape="poly"
+			      coords="83,62,102,52,96,47,107,37,118,34,117,31,129,27,154,27,163,30,180,28,198,16,219,13,249,8,281,5,296,7,334,5,335,8,345,8,334,20,322,31,290,48,280,33,270,17,255,20,267,35,250,45,261,52,266,62,268,73,244,83,220,99,204,111,204,125,199,116,176,118,171,136,179,139,183,135,192,135,187,141,177,148,153,138,154,132,143,128,136,106,133,105,133,93,140,77,138,68,133,62,138,55,135,50,119,50,112,55,83,62"
+			      href="north_america.html"
+			>
+			<area class="sa"
+			      shape="poly"
+			      coords="198,170,206,168,211,172,220,172,231,183,242,183,246,196,267,202,276,208,275,217,269,224,265,245,256,249,252,252,253,257,245,272,238,276,240,280,231,286,226,298,228,304,225,317,212,304,207,284,206,240,194,229,182,208,183,197,191,188,190,181,198,170"
+			      href="south_america.html"
+			>
+			<area class="af"
+			      shape="poly"
+			      coords=""
+			      href="africa.html"
+			>	
+			<area class="eu"
+			      shape="poly"
+			      coords=""
+			      href="europe.html"
+			>
+			<area class="md"
+			      shape="poly"
+			      coords=""
+			      href="middle_east.html"
+			>
+			<area class="as"
+			      shape="poly"
+			      coords=""
+			      href="asia.html"
+			>	
+			<area class="aus"
+			      shape="poly"
+			      coords=""
+			      href="australia.html"
+			>
+			<area class="ant"
+			      shape="poly"
+			      coords=""
+			      href="antartica.html"
+			>
+		</map>
+		<img class="center" usemap="#world" src="worldie.jpg" alt="World Map">
+	</body>
+</html>
+
